@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tennis</title>
+    <style>
+        .score{
+            display: inline-flex;
+            font-size: 20px;
+        }
+        #container{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+   <canvas id="field" width="600" height="400"></canvas>
+   <br></br>
+   <div id = 'container'>
+   <input type='button' value='старт' onclick="reset()">
+   <br></br>
+   <div id = 'scorepl1' class = 'score'></div>
+   <div class = 'score'>:</div>
+   <div id = 'scorepl2' class = 'score'></div>
+    </div>
+   <script src="tennis.js"></script>
+</body>
+</html>
